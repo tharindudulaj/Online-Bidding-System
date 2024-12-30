@@ -15,6 +15,7 @@ Developed as part of an academic project, it showcases the usage of **Java Servl
 ## Technologies Used
 - **Frontend**: 
   - HTML
+  - JSP (JavaServer Pages)
   - CSS
   - JavaScript
 - **Backend**:
