@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
+         http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+         
+    <!-- Inquiry Insert Servlet -->
+  <servlet>
+    <servlet-name>InquiryInsertServlet</servlet-name>
+    <servlet-class>com.inquiry.inquiryInsert</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>InquiryInsertServlet</servlet-name>
+    <url-pattern>/inquiry/insert</url-pattern>
+</servlet-mapping>
+
+    
+    <!-- Inquiry Update Servlet -->
+    <servlet>
+        <servlet-name>UpdateInqServlet</servlet-name>
+        <servlet-class>com.inquiry.UpdateInqServlet</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>UpdateInqServlet</servlet-name>
+        <url-pattern>/inquiry/update</url-pattern>
+    </servlet-mapping>
+    
+    <!-- Inquiry Delete Servlet -->
+    <servlet>
+        <servlet-name>DeleteInqServlet</servlet-name>
+        <servlet-class>com.inquiry.DeleteInqServlet</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>DeleteInqServlet</servlet-name>
+        <url-pattern>/inquiry/delete</url-pattern>
+    </servlet-mapping>
+
+</web-app>
